@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paula Vanegas</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bases.css">
+    <link rel="stylesheet" href="assets/css/cabecera.css">
+    <link rel="stylesheet" href="assets/css/principal.css">
+    <link rel="stylesheet" href="assets/css/servicios.css">
+    <link rel="stylesheet" href="assets/css/contacto.css">
+    <link rel="stylesheet" href="assets/css/galeria.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+</head>
+<body>
+    <header class="cabecera">
+        <img src="assets/img/logo.png" alt="Logo" class="cabecera__logo">
+        <ul class="menu">
+            <li class="menu__item"><a href="#ancla__inicio" class="menu__link">Nosotros</a></li>
+            <li class="menu__item"><a href="#ancla__servicios" class="menu__link">Servicios</a></li>
+            <li class="menu__item"><a href="#ancla__galeria" class="menu__link">Nuestro trabajo</a></li>
+            <li class="menu__item"><a href="#ancla__contacto" class="menu__link">Contacto</a></li>
+        </ul>
+    </header>
+    <main>
+        <div id="ancla__inicio"></div>
+        <section class="principal">
+            <div class="nosotros">
+                <div class="nosotros__about">
+                    <p class="about__texto">Bienvenido  a</p>
+                    <h1 class="about__titulo">Nails Art</h1>
+                    <p class="about__texto">El mejor espacio para ti, somos una empresa colombiana con más de 4 años de experiencia en cuidado de las personas, no te pierdas nuestras súper promociones, concientete y llena tu vida de alegria.</p>
+                    <div class="botones">
+                        <button class="boton--principal" onclick="scrollgaleria()">Nuestro trabajo</button>
+                        <button class="boton" onclick="scrollcontacto()">Contacto</button>
+                    </div>
+                </div>
+                <img class="principal__imagen" src="assets/img/principal.png" alt="Foto uñas">
+            </div>
+        </section>
+        <div id="ancla__servicios"></div>
+        <section class="servicios">
+            <div class="informacion">
+                <!-- <img src="assets/img/logo.png" alt="logo" class="servicios__logo"> -->
+                <h2 class="servicios__titulo">Servicios</h2>
+                <p class="servicios__texto">Somos una empresa que busca el cuidado de las personas, conoce todos nuestro servicios:</p>
+            </div>
+            <div class="contenido__servicios">
+                <ul class="servicios__lista">
+                    <li class="servicios__item">
+                        <img src="assets/img/nails.png" alt="manicure-icon" class="servicios__imagen">
+                        <h3 class="servicios__nombre">Manicure</h3>
+                    </li>
+                    <li class="servicios__item">
+                        <img src="assets/img/pedicure.png" alt="pedicure-icon" class="servicios__imagen">
+                        <h3 class="servicios__nombre">Pedicure</h3>
+                    </li>
+                    <li class="servicios__item">
+                        <img src="assets/img/maquillaje.png" alt="maquillaje-icon" class="servicios__imagen">
+                        <h3 class="servicios__nombre">Maquillaje</h3>
+                    </li>
+                    <li class="servicios__item">
+                        <img src="assets/img/ceja.png" alt="cejas-icon" class="servicios__imagen">
+                        <h3 class="servicios__nombre">Cejas</h3>
+                    </li>
+                    <li class="servicios__item">
+                        <img src="assets/img/pestanas.png" alt="pestañas-icon" class="servicios__imagen">
+                        <h3 class="servicios__nombre">Pestañas</h3>
+                    </li>
+                    <li class="servicios__item">
+                        <img src="assets/img/cepillado.png" alt="cepillado-icon" class="servicios__imagen">
+                        <h3 class="servicios__nombre">Cepillado</h3>
+                    </li>
+                    <li class="servicios__item">
+                        <img src="assets/img/corte.png" alt="corte-icon" class="servicios__imagen">
+                        <h3 class="servicios__nombre">Corte</h3>
+                    </li>
+                    <li class="servicios__item">
+                        <img src="assets/img/depilacion.png" alt="depilación-icon" class="servicios__imagen">
+                        <h3 class="servicios__nombre">Depilación</h3>
+                    </li>
+                    <li class="servicios__item">
+                        <img src="assets/img/spa.png" alt="spa-icon" class="servicios__imagen">
+                        <h3 class="servicios__nombre">Spa</h3>
+                    </li>
+                    <li class="servicios__item">
+                        <img src="assets/img/una.png" alt="tratamientos-icon" class="servicios__imagen">
+                        <h3 class="servicios__nombre">Tratamientos uñas</h3>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <div id="ancla__galeria"></div>
+        <section class="galeria">
+            <h2 class="galeria__titulo">Nuestro trabajo</h2>
+            <div class="container">
+                <figure>
+                  <img class="galeria_img" src="assets/img/img1.png" alt="img1" />
+                  <figcaption></figcaption>
+                </figure>
+                <figure>
+                  <img class="galeria_img" src="assets/img/img2.png" alt="img2" />
+                  <figcaption></figcaption>
+                </figure>
+                <figure>
+                  <img class="galeria_img" src="assets/img/img3.png" alt="img3" />
+                  <figcaption></figcaption>
+                </figure>
+                <figure>
+                  <img class="galeria_img" src="assets/img/img4.png" alt="img4" />
+                  <figcaption></figcaption>
+                </figure>
+                <figure>
+                  <img class="galeria_img" src="assets/img/img6.png" alt="img5" />
+                  <figcaption></figcaption>
+                </figure>
+                <figure>
+                  <img class="galeria_img" src="assets/img/img5.png" alt="img6" />
+                  <figcaption></figcaption>
+                </figure>
+        </section>
+        <div id="ancla__contacto"></div>
+        <section class="contacto">
+            <div class="contacto__card">
+            <div class="contacto__img">
+            <h1 class="contacto__titulo">Contacto</h1>
+            <img class="img__contacto" src="assets/img/contacto.png" alt="Uñas"></div>
+            <div class="formulario">
+                <form>
+                    <label for="nombreyapellido">Nombre y apellidos</label>
+                    <input type="text" id="nombreyapellido" class="dbasicos" required placeholder="Ej. Paula Vanegas">
+            
+                    <label for="email">Correo electronico</label>
+                    <input type="email" id="email" class="dbasicos" required placeholder="Ej. email@hotmail.com">
+            
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" class="dbasicos" required placeholder="Ej. 3214631124">
+            
+                    <label class="checkbox"> <input class="checkbox__item" type="checkbox" checked>¿Le gustaría recibir novedades de Nails Art? </label>
+                    <div class="boton__enviar"><input type="submit" value="Enviar datos" class="boton--principal enviar"></div>
+                </form>
+            </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        
+        <p class="footer__texto">Creado por Paula Vanegas</p>       
+    </footer>
+    <script>
+        function scrollgaleria(){
+            var elem= document.getElementById("ancla__galeria");
+            elem.scrollIntoView();
+        }
+        function scrollcontacto(){
+            var elem= document.getElementById("ancla__contacto");
+            elem.scrollIntoView();
+        }
+    </script>
+</body>
+</html>
